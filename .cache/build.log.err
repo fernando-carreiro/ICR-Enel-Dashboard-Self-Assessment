@@ -1,0 +1,16 @@
+A propriedade 'DontExpandEntities' n∆o foi encontrada neste objeto. Verifique se a propriedade existe e pode ser 
+definida.
+No C:\Users\BR0220793688\Documents\Dashboard SA1\tools\xlsx_to_json.ps1:73 caractere:3
++   $settings.DontExpandEntities = $true
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyAssignmentException
+ 
+A propriedade 'DontExpandEntities' n∆o foi encontrada neste objeto. Verifique se a propriedade existe e pode ser 
+definida.
+No C:\Users\BR0220793688\Documents\Dashboard SA1\tools\xlsx_to_json.ps1:73 caractere:3
++   $settings.DontExpandEntities = $true
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyAssignmentException
+ 

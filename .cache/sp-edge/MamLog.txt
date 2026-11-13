@@ -1,0 +1,534 @@
+[2026-11-06T15:50:07.669Z] [INFO] ========================================================================================================================
+[2026-11-06T15:50:07.669Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 156.0.4314.58
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-06T15:50:07.680Z] [INFO] Telemetry session 644336a6-897a-4173-8e22-7506e430ff31.
+[2026-11-06T15:50:07.690Z] [INFO] ECS client initialized.
+[2026-11-06T15:50:07.691Z] [INFO] Initializing cache (v1).
+[2026-11-06T15:50:07.697Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-06T15:50:07.697Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key 82386b54-db80-49ed-b1ea-6e11d37343b0.
+[2026-11-06T15:50:07.714Z] [INFO] Started ECS service request processing.
+[2026-11-06T15:50:07.714Z] [INFO] Fetching flight data for flight key 82386b54-db80-49ed-b1ea-6e11d37343b0...
+[2026-11-06T15:50:08.597Z] [INFO] Flight data fetch for flight key 82386b54-db80-49ed-b1ea-6e11d37343b0 succeeded. (EcsCorrelationId:MIRA: 52e95cbd-41d2-b3e2-c38e-c481a904e9f4 BN0PR02CA0026 2026-11-06T15:50:08.502Z)
+[2026-11-06T15:50:08.597Z] [INFO] Scheduling next ECS request for flight key 82386b54-db80-49ed-b1ea-6e11d37343b0 at 2026-11-06T16:50:08.597Z.
+[2026-11-06T15:50:08.597Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T13:22:26.332Z] [INFO] ========================================================================================================================
+[2026-11-09T13:22:26.332Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 156.0.4314.58
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-09T13:22:26.337Z] [INFO] Telemetry session 7473a0ab-fd5e-4644-911b-484d937ef594.
+[2026-11-09T13:22:26.342Z] [INFO] ECS client initialized.
+[2026-11-09T13:22:26.343Z] [INFO] Reinitialized cache (v1).
+[2026-11-09T13:22:26.343Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T13:22:26.343Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key 69b8e565-004f-4d35-aa1a-acb3bb05400f.
+[2026-11-09T13:22:26.403Z] [INFO] Started ECS service request processing.
+[2026-11-09T13:22:26.403Z] [INFO] Fetching flight data for flight key 69b8e565-004f-4d35-aa1a-acb3bb05400f...
+[2026-11-09T13:22:27.428Z] [INFO] Flight data fetch for flight key 69b8e565-004f-4d35-aa1a-acb3bb05400f succeeded. (EcsCorrelationId:MIRA: 088c85a2-219f-217b-0650-f87268f5513d BN9PR03CA0780 2026-11-09T13:22:27.263Z)
+[2026-11-09T13:22:27.428Z] [INFO] Scheduling next ECS request for flight key 69b8e565-004f-4d35-aa1a-acb3bb05400f at 2026-11-09T14:22:27.428Z.
+[2026-11-09T13:22:27.428Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T13:27:08.059Z] [INFO] ========================================================================================================================
+[2026-11-09T13:27:08.060Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 156.0.4314.58
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-09T13:27:08.068Z] [INFO] Telemetry session 2cba6ac3-ff92-46aa-9675-cc0f933c80ac.
+[2026-11-09T13:27:08.073Z] [INFO] ECS client initialized.
+[2026-11-09T13:27:08.074Z] [INFO] Reinitialized cache (v1).
+[2026-11-09T13:27:08.074Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T13:27:08.074Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key 3ddd5b53-ff0d-489d-9b2d-d0483cf5aaee.
+[2026-11-09T13:27:08.076Z] [INFO] Started ECS service request processing.
+[2026-11-09T13:27:08.076Z] [INFO] Fetching flight data for flight key 3ddd5b53-ff0d-489d-9b2d-d0483cf5aaee...
+[2026-11-09T13:27:08.773Z] [INFO] Flight data fetch for flight key 3ddd5b53-ff0d-489d-9b2d-d0483cf5aaee succeeded. (EcsCorrelationId:MIRA: 2bf1b41a-35c5-fcbe-0d50-6c07610d6fbf CP6P284CA0027 2026-11-09T13:27:08.573Z)
+[2026-11-09T13:27:08.773Z] [INFO] Scheduling next ECS request for flight key 3ddd5b53-ff0d-489d-9b2d-d0483cf5aaee at 2026-11-09T14:27:08.773Z.
+[2026-11-09T13:27:08.773Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T13:28:25.396Z] [INFO] ========================================================================================================================
+[2026-11-09T13:28:25.397Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 156.0.4314.58
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-09T13:28:25.401Z] [INFO] Telemetry session a019ab36-31b6-44d7-8ee7-b4b57350d253.
+[2026-11-09T13:28:25.406Z] [INFO] ECS client initialized.
+[2026-11-09T13:28:25.407Z] [INFO] Reinitialized cache (v1).
+[2026-11-09T13:28:25.407Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T13:28:25.407Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key d612fbf4-eb1f-4fb8-a734-77f40ac82b85.
+[2026-11-09T13:28:25.422Z] [INFO] Started ECS service request processing.
+[2026-11-09T13:28:25.422Z] [INFO] Fetching flight data for flight key d612fbf4-eb1f-4fb8-a734-77f40ac82b85...
+[2026-11-09T13:28:26.119Z] [INFO] Flight data fetch for flight key d612fbf4-eb1f-4fb8-a734-77f40ac82b85 succeeded. (EcsCorrelationId:Ref A: 625BDCBDA0B140DC887018B0ED4154C3 Ref B: GRU30EDGE1308 Ref C: 2026-11-09T13:28:25Z)
+[2026-11-09T13:28:26.119Z] [INFO] Scheduling next ECS request for flight key d612fbf4-eb1f-4fb8-a734-77f40ac82b85 at 2026-11-09T14:28:26.119Z.
+[2026-11-09T13:28:26.119Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T13:36:02.847Z] [INFO] ========================================================================================================================
+[2026-11-09T13:36:02.847Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 157.0.4341.42
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-09T13:36:02.856Z] [INFO] Telemetry session 26553280-f76a-43e5-8a02-cc84699195cc.
+[2026-11-09T13:36:02.864Z] [INFO] ECS client initialized.
+[2026-11-09T13:36:02.865Z] [INFO] Reinitialized cache (v1).
+[2026-11-09T13:36:02.865Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T13:36:02.866Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key 39c7ada3-b630-4a88-a97e-84f77e5a8937.
+[2026-11-09T13:36:02.927Z] [INFO] Started ECS service request processing.
+[2026-11-09T13:36:02.927Z] [INFO] Fetching flight data for flight key 39c7ada3-b630-4a88-a97e-84f77e5a8937...
+[2026-11-09T13:36:03.966Z] [INFO] Flight data fetch for flight key 39c7ada3-b630-4a88-a97e-84f77e5a8937 succeeded. (EcsCorrelationId:MIRA: f4129049-84b2-8f13-19ed-c61130cddff6 CPYP284CA0043 2026-11-09T13:36:03.478Z)
+[2026-11-09T13:36:03.966Z] [INFO] Scheduling next ECS request for flight key 39c7ada3-b630-4a88-a97e-84f77e5a8937 at 2026-11-09T14:36:03.965Z.
+[2026-11-09T13:36:03.966Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T13:37:34.578Z] [INFO] ========================================================================================================================
+[2026-11-09T13:37:34.578Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 157.0.4341.42
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-09T13:37:34.584Z] [INFO] Telemetry session c3a828a6-825d-4cfe-b639-6c7dc6a7f81e.
+[2026-11-09T13:37:34.591Z] [INFO] ECS client initialized.
+[2026-11-09T13:37:34.592Z] [INFO] Reinitialized cache (v1).
+[2026-11-09T13:37:34.593Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T13:37:34.593Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key c99c9288-78a8-4e46-8811-66606aa8dbf9.
+[2026-11-09T13:37:34.644Z] [INFO] Started ECS service request processing.
+[2026-11-09T13:37:34.644Z] [INFO] Fetching flight data for flight key c99c9288-78a8-4e46-8811-66606aa8dbf9...
+[2026-11-09T13:37:35.895Z] [INFO] Flight data fetch for flight key c99c9288-78a8-4e46-8811-66606aa8dbf9 succeeded. (EcsCorrelationId:MIRA: 3c89d80e-4e18-60a6-d188-3bb42cd0585a BN1PR13CA0025 2026-11-09T13:37:35.542Z)
+[2026-11-09T13:37:35.895Z] [INFO] Scheduling next ECS request for flight key c99c9288-78a8-4e46-8811-66606aa8dbf9 at 2026-11-09T14:37:35.895Z.
+[2026-11-09T13:37:35.895Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T13:49:03.841Z] [INFO] ========================================================================================================================
+[2026-11-09T13:49:03.841Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 157.0.4341.42
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-09T13:49:03.846Z] [INFO] Telemetry session 49a1d56e-44be-423d-9029-d95f22544d68.
+[2026-11-09T13:49:03.855Z] [INFO] ECS client initialized.
+[2026-11-09T13:49:03.857Z] [INFO] Reinitialized cache (v1).
+[2026-11-09T13:49:03.857Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T13:49:03.857Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key 48cc6f54-6c25-41a2-a95e-ebd4d88f48a4.
+[2026-11-09T13:49:03.864Z] [INFO] Started ECS service request processing.
+[2026-11-09T13:49:03.864Z] [INFO] Fetching flight data for flight key 48cc6f54-6c25-41a2-a95e-ebd4d88f48a4...
+[2026-11-09T13:49:04.960Z] [INFO] Flight data fetch for flight key 48cc6f54-6c25-41a2-a95e-ebd4d88f48a4 succeeded. (EcsCorrelationId:MIRA: 997aea4f-d014-5f29-9011-1b82f55868f9 BL1PR13CA0174 2026-11-09T13:49:04.863Z)
+[2026-11-09T13:49:04.960Z] [INFO] Scheduling next ECS request for flight key 48cc6f54-6c25-41a2-a95e-ebd4d88f48a4 at 2026-11-09T14:49:04.960Z.
+[2026-11-09T13:49:04.960Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T13:51:44.997Z] [INFO] ========================================================================================================================
+[2026-11-09T13:51:44.997Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 157.0.4341.42
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-09T13:51:45.002Z] [INFO] Telemetry session d220ba4a-1f3a-4cdd-9d17-3857513fba35.
+[2026-11-09T13:51:45.006Z] [INFO] ECS client initialized.
+[2026-11-09T13:51:45.007Z] [INFO] Reinitialized cache (v1).
+[2026-11-09T13:51:45.007Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T13:51:45.007Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key 9c866a31-c729-4bd0-aa29-86a5ac060b30.
+[2026-11-09T13:51:45.060Z] [INFO] Started ECS service request processing.
+[2026-11-09T13:51:45.060Z] [INFO] Fetching flight data for flight key 9c866a31-c729-4bd0-aa29-86a5ac060b30...
+[2026-11-09T13:51:45.649Z] [INFO] Flight data fetch for flight key 9c866a31-c729-4bd0-aa29-86a5ac060b30 succeeded. (EcsCorrelationId:MIRA: 09ed7df4-06e3-e8ff-0c34-0e206e2c2c0d CP5P284CA0068 2026-11-09T13:51:45.516Z)
+[2026-11-09T13:51:45.650Z] [INFO] Scheduling next ECS request for flight key 9c866a31-c729-4bd0-aa29-86a5ac060b30 at 2026-11-09T14:51:45.649Z.
+[2026-11-09T13:51:45.650Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T14:06:44.539Z] [INFO] ========================================================================================================================
+[2026-11-09T14:06:44.539Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 157.0.4341.42
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-09T14:06:44.544Z] [INFO] Telemetry session cf1e7050-5eb8-4ef0-8909-01c4da931288.
+[2026-11-09T14:06:44.548Z] [INFO] ECS client initialized.
+[2026-11-09T14:06:44.549Z] [INFO] Reinitialized cache (v1).
+[2026-11-09T14:06:44.549Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T14:06:44.549Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key eaecf2c3-1464-40bf-97d8-b12a27d1c34e.
+[2026-11-09T14:06:44.572Z] [INFO] Started ECS service request processing.
+[2026-11-09T14:06:44.572Z] [INFO] Fetching flight data for flight key eaecf2c3-1464-40bf-97d8-b12a27d1c34e...
+[2026-11-09T14:06:45.864Z] [INFO] Flight data fetch for flight key eaecf2c3-1464-40bf-97d8-b12a27d1c34e succeeded. (EcsCorrelationId:MIRA: 29ae23cc-52e8-dce6-4c30-707bc5122d3a BN9PR03CA0409 2026-11-09T14:06:45.518Z)
+[2026-11-09T14:06:45.864Z] [INFO] Scheduling next ECS request for flight key eaecf2c3-1464-40bf-97d8-b12a27d1c34e at 2026-11-09T15:06:45.864Z.
+[2026-11-09T14:06:45.864Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T14:08:15.001Z] [INFO] ========================================================================================================================
+[2026-11-09T14:08:15.001Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 157.0.4341.42
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-09T14:08:15.006Z] [INFO] Telemetry session b34d10eb-147a-4002-91bd-e4dcb18eeeb8.
+[2026-11-09T14:08:15.010Z] [INFO] ECS client initialized.
+[2026-11-09T14:08:15.011Z] [INFO] Reinitialized cache (v1).
+[2026-11-09T14:08:15.011Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T14:08:15.011Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key b4f3c213-5263-42f8-91d5-3b1f7d92b09a.
+[2026-11-09T14:08:15.018Z] [INFO] Started ECS service request processing.
+[2026-11-09T14:08:15.018Z] [INFO] Fetching flight data for flight key b4f3c213-5263-42f8-91d5-3b1f7d92b09a...
+[2026-11-09T14:08:15.975Z] [INFO] Flight data fetch for flight key b4f3c213-5263-42f8-91d5-3b1f7d92b09a succeeded. (EcsCorrelationId:MIRA: 689fbaaa-de6a-7f8c-daa8-35663ed30e40 CP5P284CA0275 2026-11-09T14:08:15.753Z)
+[2026-11-09T14:08:15.975Z] [INFO] Scheduling next ECS request for flight key b4f3c213-5263-42f8-91d5-3b1f7d92b09a at 2026-11-09T15:08:15.975Z.
+[2026-11-09T14:08:15.975Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T14:10:05.271Z] [INFO] ========================================================================================================================
+[2026-11-09T14:10:05.272Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 157.0.4341.42
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-09T14:10:05.277Z] [INFO] Telemetry session 7efc1b7b-2abe-4f8e-9865-f7b32dc21da5.
+[2026-11-09T14:10:05.281Z] [INFO] ECS client initialized.
+[2026-11-09T14:10:05.282Z] [INFO] Reinitialized cache (v1).
+[2026-11-09T14:10:05.282Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T14:10:05.282Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key 6dd443b5-f394-4e16-82a4-5ea4cb1c2c0e.
+[2026-11-09T14:10:05.300Z] [INFO] Started ECS service request processing.
+[2026-11-09T14:10:05.300Z] [INFO] Fetching flight data for flight key 6dd443b5-f394-4e16-82a4-5ea4cb1c2c0e...
+[2026-11-09T14:10:06.286Z] [INFO] Flight data fetch for flight key 6dd443b5-f394-4e16-82a4-5ea4cb1c2c0e succeeded. (EcsCorrelationId:MIRA: 1b2f60ad-ad92-db3b-4744-8bbf9f08cd88 BN0PR04CA0090 2026-11-09T14:10:06.152Z)
+[2026-11-09T14:10:06.286Z] [INFO] Scheduling next ECS request for flight key 6dd443b5-f394-4e16-82a4-5ea4cb1c2c0e at 2026-11-09T15:10:06.286Z.
+[2026-11-09T14:10:06.286Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T14:11:48.428Z] [INFO] ========================================================================================================================
+[2026-11-09T14:11:48.428Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 157.0.4341.42
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-09T14:11:48.434Z] [INFO] Telemetry session 175dc645-3506-489f-8893-9eceff2b3260.
+[2026-11-09T14:11:48.454Z] [INFO] ECS client initialized.
+[2026-11-09T14:11:48.455Z] [INFO] Started ECS service request processing.
+[2026-11-09T14:11:48.455Z] [INFO] Reinitialized cache (v1).
+[2026-11-09T14:11:48.455Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T14:11:48.456Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key 933eb75c-32e6-43e3-86fd-e00aac1f840a.
+[2026-11-09T14:11:48.456Z] [INFO] Fetching flight data for flight key 933eb75c-32e6-43e3-86fd-e00aac1f840a...
+[2026-11-09T14:11:49.510Z] [INFO] Flight data fetch for flight key 933eb75c-32e6-43e3-86fd-e00aac1f840a succeeded. (EcsCorrelationId:MIRA: 0a5b8061-5d39-5967-c41b-a3c0fda48d09 BL1PR13CA0164 2026-11-09T14:11:49.359Z)
+[2026-11-09T14:11:49.510Z] [INFO] Scheduling next ECS request for flight key 933eb75c-32e6-43e3-86fd-e00aac1f840a at 2026-11-09T15:11:49.510Z.
+[2026-11-09T14:11:49.510Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T14:12:41.793Z] [INFO] ========================================================================================================================
+[2026-11-09T14:12:41.794Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 157.0.4341.42
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-09T14:12:41.798Z] [INFO] Telemetry session a894d529-41d2-47c3-8c64-df913dd7f49a.
+[2026-11-09T14:12:41.802Z] [INFO] ECS client initialized.
+[2026-11-09T14:12:41.803Z] [INFO] Reinitialized cache (v1).
+[2026-11-09T14:12:41.803Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T14:12:41.803Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key 364eaadf-99a6-40ef-bed7-33456bb1bed7.
+[2026-11-09T14:12:41.816Z] [INFO] Started ECS service request processing.
+[2026-11-09T14:12:41.816Z] [INFO] Fetching flight data for flight key 364eaadf-99a6-40ef-bed7-33456bb1bed7...
+[2026-11-09T14:12:42.766Z] [INFO] Flight data fetch for flight key 364eaadf-99a6-40ef-bed7-33456bb1bed7 succeeded. (EcsCorrelationId:MIRA: d1933633-4e04-f5a6-6836-818aa8c189a7 CP5P284CA0246 2026-11-09T14:12:42.286Z)
+[2026-11-09T14:12:42.766Z] [INFO] Scheduling next ECS request for flight key 364eaadf-99a6-40ef-bed7-33456bb1bed7 at 2026-11-09T15:12:42.766Z.
+[2026-11-09T14:12:42.766Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T14:22:47.486Z] [INFO] ========================================================================================================================
+[2026-11-09T14:22:47.486Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 157.0.4341.42
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-09T14:22:47.515Z] [INFO] Telemetry session cae6be19-9240-43d9-ba0e-1c687afb3533.
+[2026-11-09T14:22:47.543Z] [INFO] ECS client initialized.
+[2026-11-09T14:22:47.544Z] [INFO] Reinitialized cache (v1).
+[2026-11-09T14:22:47.544Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T14:22:47.544Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key 4c0db190-b5c7-4ca7-9ac2-c9b55aee205f.
+[2026-11-09T14:22:47.551Z] [INFO] Started ECS service request processing.
+[2026-11-09T14:22:47.551Z] [INFO] Fetching flight data for flight key 4c0db190-b5c7-4ca7-9ac2-c9b55aee205f...
+[2026-11-09T14:22:49.384Z] [INFO] Flight data fetch for flight key 4c0db190-b5c7-4ca7-9ac2-c9b55aee205f succeeded. (EcsCorrelationId:MIRA: 0982675c-4ba5-ab93-6996-be3b28eb62e3 FR2P281CA0114 2026-11-09T14:22:49.265Z)
+[2026-11-09T14:22:49.384Z] [INFO] Scheduling next ECS request for flight key 4c0db190-b5c7-4ca7-9ac2-c9b55aee205f at 2026-11-09T15:22:49.384Z.
+[2026-11-09T14:22:49.384Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T21:15:03.030Z] [INFO] ========================================================================================================================
+[2026-11-09T21:15:03.030Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 157.0.4341.42
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-09T21:15:03.043Z] [INFO] Telemetry session 6621e023-91ac-423b-9bc7-f65299a48a5b.
+[2026-11-09T21:15:03.050Z] [INFO] ECS client initialized.
+[2026-11-09T21:15:03.053Z] [INFO] Reinitialized cache (v1).
+[2026-11-09T21:15:03.053Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-09T21:15:03.053Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key a92e6e21-3c58-4c64-aa5e-69882a3da50b.
+[2026-11-09T21:15:03.066Z] [INFO] Started ECS service request processing.
+[2026-11-09T21:15:03.066Z] [INFO] Fetching flight data for flight key a92e6e21-3c58-4c64-aa5e-69882a3da50b...
+[2026-11-09T21:15:03.771Z] [INFO] Flight data fetch for flight key a92e6e21-3c58-4c64-aa5e-69882a3da50b succeeded. (EcsCorrelationId:MIRA: b6850183-6cc5-ad13-e90d-9feda5db1381 CP5P284CA0122 2026-11-09T21:15:03.563Z)
+[2026-11-09T21:15:03.771Z] [INFO] Scheduling next ECS request for flight key a92e6e21-3c58-4c64-aa5e-69882a3da50b at 2026-11-09T22:15:03.771Z.
+[2026-11-09T21:15:03.771Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-10T15:20:45.552Z] [INFO] ========================================================================================================================
+[2026-11-10T15:20:45.552Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 157.0.4341.42
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-10T15:20:45.557Z] [INFO] Telemetry session 275695ac-8bc2-4f13-a726-a762af514167.
+[2026-11-10T15:20:45.562Z] [INFO] ECS client initialized.
+[2026-11-10T15:20:45.563Z] [INFO] Reinitialized cache (v1).
+[2026-11-10T15:20:45.563Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-10T15:20:45.563Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key 2ec988f1-7584-4913-ba42-afe512eb4521.
+[2026-11-10T15:20:45.578Z] [INFO] Started ECS service request processing.
+[2026-11-10T15:20:45.578Z] [INFO] Fetching flight data for flight key 2ec988f1-7584-4913-ba42-afe512eb4521...
+[2026-11-10T15:20:46.729Z] [INFO] Flight data fetch for flight key 2ec988f1-7584-4913-ba42-afe512eb4521 succeeded. (EcsCorrelationId:Ref A: 380449AF47314444A63A6961E4D6F44D Ref B: CPQ232090701023 Ref C: 2026-11-10T15:20:46Z)
+[2026-11-10T15:20:46.730Z] [INFO] Scheduling next ECS request for flight key 2ec988f1-7584-4913-ba42-afe512eb4521 at 2026-11-10T16:20:46.729Z.
+[2026-11-10T15:20:46.730Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-10T16:38:10.784Z] [INFO] ========================================================================================================================
+[2026-11-10T16:38:10.784Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 157.0.4341.42
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-10T16:38:10.789Z] [INFO] Telemetry session 107816fa-6da9-459b-a263-31cd5613fa16.
+[2026-11-10T16:38:10.793Z] [INFO] ECS client initialized.
+[2026-11-10T16:38:10.795Z] [INFO] Reinitialized cache (v1).
+[2026-11-10T16:38:10.795Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-10T16:38:10.795Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key c61bde60-b1d4-4ad7-a2fa-00cea6cbc684.
+[2026-11-10T16:38:10.796Z] [INFO] Started ECS service request processing.
+[2026-11-10T16:38:10.796Z] [INFO] Fetching flight data for flight key c61bde60-b1d4-4ad7-a2fa-00cea6cbc684...
+[2026-11-10T16:38:11.957Z] [INFO] Flight data fetch for flight key c61bde60-b1d4-4ad7-a2fa-00cea6cbc684 succeeded. (EcsCorrelationId:MIRA: c1afa9bb-52b8-10ca-9a65-0ab252763aec BN8PR04CA0064 2026-11-10T16:38:11.683Z)
+[2026-11-10T16:38:11.957Z] [INFO] Scheduling next ECS request for flight key c61bde60-b1d4-4ad7-a2fa-00cea6cbc684 at 2026-11-10T17:38:11.957Z.
+[2026-11-10T16:38:11.957Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-11T13:14:19.278Z] [INFO] ========================================================================================================================
+[2026-11-11T13:14:19.278Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 157.0.4341.42
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-11T13:14:19.289Z] [INFO] Telemetry session e6843874-07cd-4083-bb75-0a432d4cb7c1.
+[2026-11-11T13:14:19.294Z] [INFO] ECS client initialized.
+[2026-11-11T13:14:19.358Z] [INFO] Reinitialized cache (v1).
+[2026-11-11T13:14:19.359Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-11T13:14:19.359Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key 4839e52e-a0d5-4943-aedc-43d8f17a4f4b.
+[2026-11-11T13:14:19.381Z] [INFO] Started ECS service request processing.
+[2026-11-11T13:14:19.381Z] [INFO] Fetching flight data for flight key 4839e52e-a0d5-4943-aedc-43d8f17a4f4b...
+[2026-11-11T13:14:20.174Z] [INFO] Flight data fetch for flight key 4839e52e-a0d5-4943-aedc-43d8f17a4f4b succeeded. (EcsCorrelationId:MIRA: 779d779a-d530-7415-7e78-7754aa4a4322 BN0PR03CA0026 2026-11-11T13:14:20.154Z)
+[2026-11-11T13:14:20.174Z] [INFO] Scheduling next ECS request for flight key 4839e52e-a0d5-4943-aedc-43d8f17a4f4b at 2026-11-11T14:14:20.174Z.
+[2026-11-11T13:14:20.174Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-11T14:05:09.204Z] [INFO] ========================================================================================================================
+[2026-11-11T14:05:09.204Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 157.0.4341.46
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-11T14:05:09.209Z] [INFO] Telemetry session 449d4246-b8bd-4361-9549-aa75c90600d7.
+[2026-11-11T14:05:09.216Z] [INFO] ECS client initialized.
+[2026-11-11T14:05:09.221Z] [INFO] Reinitialized cache (v1).
+[2026-11-11T14:05:09.221Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-11T14:05:09.221Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key 3c630ba8-4541-462d-915a-14cd7a2982f5.
+[2026-11-11T14:05:09.262Z] [INFO] Started ECS service request processing.
+[2026-11-11T14:05:09.262Z] [INFO] Fetching flight data for flight key 3c630ba8-4541-462d-915a-14cd7a2982f5...
+[2026-11-11T14:05:10.678Z] [INFO] Flight data fetch for flight key 3c630ba8-4541-462d-915a-14cd7a2982f5 succeeded. (EcsCorrelationId:MIRA: 302a657e-539a-a1bb-4b45-3389f4bb9157 MN2PR07CA0010 2026-11-11T14:05:10.532Z)
+[2026-11-11T14:05:10.678Z] [INFO] Scheduling next ECS request for flight key 3c630ba8-4541-462d-915a-14cd7a2982f5 at 2026-11-11T15:05:10.678Z.
+[2026-11-11T14:05:10.678Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-11T18:47:33.467Z] [INFO] ========================================================================================================================
+[2026-11-11T18:47:33.467Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 157.0.4341.46
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-11T18:47:33.472Z] [INFO] Telemetry session ecac9a2e-f063-4e79-9582-20d7ac3fb912.
+[2026-11-11T18:47:33.477Z] [INFO] ECS client initialized.
+[2026-11-11T18:47:33.481Z] [INFO] Reinitialized cache (v1).
+[2026-11-11T18:47:33.481Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-11T18:47:33.482Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key 060ff5bd-df16-4bce-9cc7-5cc46776d5f2.
+[2026-11-11T18:47:33.504Z] [INFO] Started ECS service request processing.
+[2026-11-11T18:47:33.504Z] [INFO] Fetching flight data for flight key 060ff5bd-df16-4bce-9cc7-5cc46776d5f2...
+[2026-11-11T18:47:34.082Z] [INFO] Flight data fetch for flight key 060ff5bd-df16-4bce-9cc7-5cc46776d5f2 succeeded. (EcsCorrelationId:MIRA: a1dbda34-8d6c-475a-3429-236fdf15067d CP5P284CA0179 2026-11-11T18:47:33.927Z)
+[2026-11-11T18:47:34.083Z] [INFO] Scheduling next ECS request for flight key 060ff5bd-df16-4bce-9cc7-5cc46776d5f2 at 2026-11-11T19:47:34.082Z.
+[2026-11-11T18:47:34.083Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-12T18:08:44.275Z] [INFO] ========================================================================================================================
+[2026-11-12T18:08:44.275Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 157.0.4341.46
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-12T18:08:44.281Z] [INFO] Telemetry session 122a9a32-0639-4376-8402-15cc1dc0ecfd.
+[2026-11-12T18:08:44.286Z] [INFO] ECS client initialized.
+[2026-11-12T18:08:44.287Z] [INFO] Reinitialized cache (v1).
+[2026-11-12T18:08:44.288Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-12T18:08:44.288Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key b916de61-2182-4d8d-806d-29d406da6c3c.
+[2026-11-12T18:08:44.319Z] [INFO] Started ECS service request processing.
+[2026-11-12T18:08:44.320Z] [INFO] Fetching flight data for flight key b916de61-2182-4d8d-806d-29d406da6c3c...
+[2026-11-12T18:09:21.809Z] [ERROR] Flight data fetch for flight key b916de61-2182-4d8d-806d-29d406da6c3c failed with unexpected status 0. (EcsCorrelationId:<unknown>)
+[2026-11-12T18:09:21.809Z] [INFO] Scheduling next ECS request for flight key b916de61-2182-4d8d-806d-29d406da6c3c at 2026-11-12T18:09:22.309Z.
+[2026-11-12T18:09:22.319Z] [INFO] Fetching flight data for flight key b916de61-2182-4d8d-806d-29d406da6c3c...
+[2026-11-12T18:09:27.098Z] [ERROR] Flight data fetch for flight key b916de61-2182-4d8d-806d-29d406da6c3c failed with unexpected status 0. (EcsCorrelationId:<unknown>)
+[2026-11-12T18:09:27.098Z] [INFO] Scheduling next ECS request for flight key b916de61-2182-4d8d-806d-29d406da6c3c at 2026-11-12T18:09:28.098Z.
+[2026-11-12T18:09:28.098Z] [INFO] Fetching flight data for flight key b916de61-2182-4d8d-806d-29d406da6c3c...
+[2026-11-12T18:09:46.809Z] [INFO] Flight data fetch for flight key b916de61-2182-4d8d-806d-29d406da6c3c succeeded. (EcsCorrelationId:Ref A: 53872873ED7046E38EFFBA3E56EC1633 Ref B: GRU30EDGE1509 Ref C: 2026-11-12T18:09:46Z)
+[2026-11-12T18:09:46.809Z] [INFO] Scheduling next ECS request for flight key b916de61-2182-4d8d-806d-29d406da6c3c at 2026-11-12T19:09:46.809Z.
+[2026-11-12T18:09:46.809Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-12T19:04:19.719Z] [INFO] ========================================================================================================================
+[2026-11-12T19:04:19.719Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 157.0.4341.46
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-12T19:04:19.725Z] [INFO] Telemetry session 1ed3e609-1132-41f8-b5ca-e8f76f0c41dc.
+[2026-11-12T19:04:19.731Z] [INFO] ECS client initialized.
+[2026-11-12T19:04:19.731Z] [INFO] Reinitialized cache (v1).
+[2026-11-12T19:04:19.732Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-12T19:04:19.732Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key a3caef21-8cde-40e8-96f1-b45a440d4e73.
+[2026-11-12T19:04:19.841Z] [INFO] Started ECS service request processing.
+[2026-11-12T19:04:19.841Z] [INFO] Fetching flight data for flight key a3caef21-8cde-40e8-96f1-b45a440d4e73...
+[2026-11-12T19:04:21.480Z] [INFO] Flight data fetch for flight key a3caef21-8cde-40e8-96f1-b45a440d4e73 succeeded. (EcsCorrelationId:Ref A: E9088F29FA3741519EB4322D0BD2F83B Ref B: GRU30EDGE0111 Ref C: 2026-11-12T19:04:21Z)
+[2026-11-12T19:04:21.480Z] [INFO] Scheduling next ECS request for flight key a3caef21-8cde-40e8-96f1-b45a440d4e73 at 2026-11-12T20:04:21.480Z.
+[2026-11-12T19:04:21.480Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-12T19:31:11.976Z] [INFO] ========================================================================================================================
+[2026-11-12T19:31:11.976Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 157.0.4341.46
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-12T19:31:11.985Z] [INFO] Telemetry session 704fcd8c-42f8-474a-8946-4c2750d014bd.
+[2026-11-12T19:31:11.998Z] [INFO] ECS client initialized.
+[2026-11-12T19:31:12.000Z] [INFO] Reinitialized cache (v1).
+[2026-11-12T19:31:12.000Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-12T19:31:12.000Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key d88c9860-9ca2-4b2d-857b-58171cf68a9a.
+[2026-11-12T19:31:12.037Z] [INFO] Started ECS service request processing.
+[2026-11-12T19:31:12.037Z] [INFO] Fetching flight data for flight key d88c9860-9ca2-4b2d-857b-58171cf68a9a...
+[2026-11-12T19:31:12.758Z] [INFO] Flight data fetch for flight key d88c9860-9ca2-4b2d-857b-58171cf68a9a succeeded. (EcsCorrelationId:Ref A: 47565ECC99344182B1C763E3D9BF9866 Ref B: GRU30EDGE1015 Ref C: 2026-11-12T19:31:12Z)
+[2026-11-12T19:31:12.759Z] [INFO] Scheduling next ECS request for flight key d88c9860-9ca2-4b2d-857b-58171cf68a9a at 2026-11-12T20:31:12.758Z.
+[2026-11-12T19:31:12.759Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-12T20:59:32.532Z] [INFO] ========================================================================================================================
+[2026-11-12T20:59:32.532Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 157.0.4341.46
+SDK: 2.4.2.0
+OS: windows 10.0.26200.9711
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: Latitude 3420
+Telemetry: yes
+Managed device support: enabled
+[2026-11-12T20:59:32.537Z] [INFO] Telemetry session 4be333f9-6d1f-47ad-9c6e-f0d7be5c7132.
+[2026-11-12T20:59:32.543Z] [INFO] ECS client initialized.
+[2026-11-12T20:59:32.544Z] [INFO] Reinitialized cache (v1).
+[2026-11-12T20:59:32.544Z] [INFO] Flight configuration defaults:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":0,"value":0},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}
+[2026-11-12T20:59:32.544Z] [INFO] Registered Flight Client FlightClientId:6a1b553f-06f8-43f5-8e14-2f7a7e4c3a01 with new flight key 7b02f32b-482f-4851-8a22-2ede51a1bbbf.
+[2026-11-12T20:59:32.604Z] [INFO] Started ECS service request processing.
+[2026-11-12T20:59:32.604Z] [INFO] Fetching flight data for flight key 7b02f32b-482f-4851-8a22-2ede51a1bbbf...
+[2026-11-12T20:59:33.236Z] [INFO] Flight data fetch for flight key 7b02f32b-482f-4851-8a22-2ede51a1bbbf succeeded. (EcsCorrelationId:Ref A: 0B1BE5D5A0864465BDE3777C82BB7774 Ref B: GRU30EDGE0210 Ref C: 2026-11-12T20:59:33Z)
+[2026-11-12T20:59:33.236Z] [INFO] Scheduling next ECS request for flight key 7b02f32b-482f-4851-8a22-2ede51a1bbbf at 2026-11-12T21:59:33.236Z.
+[2026-11-12T20:59:33.236Z] [INFO] Application flight configuration updated:
+{"924da161-897f-4061-ad83-eca72d58a16e_0":{"source":0,"value":false},"DesktopMAM_Canary":{"source":1,"value":1},"f9fec151-8ff5-437c-a028-0e92e9878d8d_0":{"source":0,"value":false},"f9fec151-8ff5-437c-a028-0e92e9878d8d_1":{"source":0,"value":false}}

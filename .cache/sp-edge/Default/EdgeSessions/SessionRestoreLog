@@ -1,0 +1,180 @@
+{"logTime": "1106/155006", "session": "START"}
+{"logTime": "1106/155006", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": false,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1106/155006", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:448 EdgeLogLastSessionExitTypeOnStartup", "message": "Previous Session Exit Type: PreviousSessionExitType::kNormalBrowserShutDown"}
+{"logTime": "1106/155006", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1698 DetermineURLsAndLaunch", "message": "Startup Preference: 0"}
+{"logTime": "1106/155006", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1700 DetermineURLsAndLaunch", "message": "Browser Open Behavior: 0"}
+{"logTime": "1106/155009", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "No session files found for SessionType SessionRestore"}
+{"logTime": "1109/132226", "session": "START"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:448 EdgeLogLastSessionExitTypeOnStartup", "message": "Previous Session Exit Type: PreviousSessionExitType::kBrowserCrash"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1698 DetermineURLsAndLaunch", "message": "Startup Preference: 0"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1700 DetermineURLsAndLaunch", "message": "Browser Open Behavior: 1"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\sessions\\session_restore.cc:3226 RestoreSession", "message": "Session restore started"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\sessions\\session_restore.cc:3251 RestoreSession", "message": "Last session exit type : Session ended due to browser crash"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\sessions\\session_restore.cc:3278 RestoreSession", "message": "Session restore started with behavior bitmask: 30, last session exit type: Session ended due to browser crash"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\sessions\\session_restore.cc:3282 RestoreSession", "message": "Session Restore source: SessionRestoreAttemptSource::kAutoRestore"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kRestoreInitiated - {\r\n   \"restore_browser\": true,\r\n   \"synchronous\": true,\r\n   \"type\": 5\r\n}\r\n"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\sessions\\session_restore.cc:830 Restore", "message": "Session service data found"}
+{"logTime": "1109/132226", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "Last session file : Session_13438453809039957"}
+{"logTime": "1109/132226", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:841 CreateTabsAndWindows", "message": "Commands to decode: 25"}
+{"logTime": "1109/132226", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:2247 RestoreSessionFromCommands", "message": "Parse from commands results: Tabs 1, groups 0, windows 1, discarded windows 0"}
+{"logTime": "1109/132226", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:598 EdgeLogDecodeResults", "message": "All tabs/windows/tab groups decoded"}
+{"logTime": "1109/132226", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:600 EdgeLogDecodeResults", "message": "Decoded windows: 1, discarded windows: 0"}
+{"logTime": "1109/132226", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "Last session file : Session_13438453809039957"}
+{"logTime": "1109/132226", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:841 CreateTabsAndWindows", "message": "Commands to decode: 25"}
+{"logTime": "1109/132226", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:2247 RestoreSessionFromCommands", "message": "Parse from commands results: Tabs 1, groups 0, windows 1, discarded windows 0"}
+{"logTime": "1109/132226", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:598 EdgeLogDecodeResults", "message": "All tabs/windows/tab groups decoded"}
+{"logTime": "1109/132226", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:600 EdgeLogDecodeResults", "message": "Decoded windows: 1, discarded windows: 0"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\sessions\\session_restore.cc:1446 ProcessSessionWindowsIfReady", "message": "All session reads complete (session data read succeeded)"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\sessions\\session_restore.cc:1625 ProcessSessionWindows", "message": "Processing session windows: 1"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\sessions\\session_restore.cc:1644 ProcessSessionWindows", "message": "After PruneWindows: 1 windows remaining"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\sessions\\session_restore.cc:1785 ProcessSessionWindows", "message": "Restoring tabs to existing browser, window SessionId: 759351117, browser id: 759351170"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\sessions\\session_restore.cc:1939 ProcessSessionWindows", "message": "Restoring tabs to browser, window SessionId: 759351117, browser id: 759351170, initial tab count: 1"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\sessions\\session_restore.cc:2040 ProcessSessionWindows", "message": "Restored tabs to window SessionId: 759351117, browser id: 759351170, tab count: 1"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\sessions\\session_restore.cc:1264 FinishedTabCreation", "message": "Creating all tabs/browsers completed"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\sessions\\session_restore.cc:1566 LogEdgeSessionRestoreTelemetry", "message": "Session restore completed successfully"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\sessions\\session_restore.cc:1572 LogEdgeSessionRestoreTelemetry", "message": "1 tabs restored and loaded"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\sessions\\session_restore.cc:2153 ProcessSessionWindows", "message": "Session restore restored all windows"}
+{"logTime": "1109/132226", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kRestore - {\r\n   \"errored_reading\": false,\r\n   \"tab_count\": 1,\r\n   \"type\": 1,\r\n   \"window_count\": 1\r\n}\r\n"}
+{"logTime": "1109/132708", "session": "START"}
+{"logTime": "1109/132708", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1109/132708", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:448 EdgeLogLastSessionExitTypeOnStartup", "message": "Previous Session Exit Type: PreviousSessionExitType::kBrowserCrash"}
+{"logTime": "1109/132708", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1698 DetermineURLsAndLaunch", "message": "Startup Preference: 0"}
+{"logTime": "1109/132708", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1700 DetermineURLsAndLaunch", "message": "Browser Open Behavior: 0"}
+{"logTime": "1109/132708", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "Delete session file Session_13438453809039957, for SessionType SessionRestore"}
+{"logTime": "1109/132708", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "Last session file : Session_13438704149174067"}
+{"logTime": "1109/132708", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:841 CreateTabsAndWindows", "message": "Commands to decode: 31"}
+{"logTime": "1109/132708", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:2247 RestoreSessionFromCommands", "message": "Parse from commands results: Tabs 2, groups 0, windows 1, discarded windows 0"}
+{"logTime": "1109/132708", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:598 EdgeLogDecodeResults", "message": "All tabs/windows/tab groups decoded"}
+{"logTime": "1109/132708", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:600 EdgeLogDecodeResults", "message": "Decoded windows: 1, discarded windows: 0"}
+{"logTime": "1109/132825", "session": "START"}
+{"logTime": "1109/132825", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1109/132825", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:448 EdgeLogLastSessionExitTypeOnStartup", "message": "Previous Session Exit Type: PreviousSessionExitType::kBrowserCrash"}
+{"logTime": "1109/132825", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1698 DetermineURLsAndLaunch", "message": "Startup Preference: 0"}
+{"logTime": "1109/132825", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1700 DetermineURLsAndLaunch", "message": "Browser Open Behavior: 0"}
+{"logTime": "1109/132825", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "Last session file : Session_13438704149174067"}
+{"logTime": "1109/132825", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:841 CreateTabsAndWindows", "message": "Commands to decode: 31"}
+{"logTime": "1109/132825", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:2247 RestoreSessionFromCommands", "message": "Parse from commands results: Tabs 2, groups 0, windows 1, discarded windows 0"}
+{"logTime": "1109/132825", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:598 EdgeLogDecodeResults", "message": "All tabs/windows/tab groups decoded"}
+{"logTime": "1109/132825", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:600 EdgeLogDecodeResults", "message": "Decoded windows: 1, discarded windows: 0"}
+{"logTime": "1109/140644", "session": "START"}
+{"logTime": "1109/140644", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1109/140644", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:452 EdgeLogLastSessionExitTypeOnStartup", "message": "Previous Session Exit Type: PreviousSessionExitType::kBrowserCrash"}
+{"logTime": "1109/140644", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1757 DetermineURLsAndLaunch", "message": "Startup Preference: 0"}
+{"logTime": "1109/140644", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1759 DetermineURLsAndLaunch", "message": "Browser Open Behavior: 0"}
+{"logTime": "1109/140644", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "Last session file : Session_13438704149174067"}
+{"logTime": "1109/140644", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:841 CreateTabsAndWindows", "message": "Commands to decode: 31"}
+{"logTime": "1109/140644", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:2247 RestoreSessionFromCommands", "message": "Parse from commands results: Tabs 2, groups 0, windows 1, discarded windows 0"}
+{"logTime": "1109/140644", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:598 EdgeLogDecodeResults", "message": "All tabs/windows/tab groups decoded"}
+{"logTime": "1109/140644", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:600 EdgeLogDecodeResults", "message": "Decoded windows: 1, discarded windows: 0"}
+{"logTime": "1109/140644", "level": "INFO", "location": "chrome\\browser\\ui\\views\\session_crashed_bubble_view.cc:430 ShowBubble", "message": "Session crashed bubble shown. PWILO checkbox present: false"}
+{"logTime": "1109/140814", "session": "START"}
+{"logTime": "1109/140814", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1109/140815", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:452 EdgeLogLastSessionExitTypeOnStartup", "message": "Previous Session Exit Type: PreviousSessionExitType::kBrowserCrash"}
+{"logTime": "1109/140815", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1757 DetermineURLsAndLaunch", "message": "Startup Preference: 0"}
+{"logTime": "1109/140815", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1759 DetermineURLsAndLaunch", "message": "Browser Open Behavior: 0"}
+{"logTime": "1109/140815", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "Last session file : Session_13438704149174067"}
+{"logTime": "1109/140815", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:841 CreateTabsAndWindows", "message": "Commands to decode: 31"}
+{"logTime": "1109/140815", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:2247 RestoreSessionFromCommands", "message": "Parse from commands results: Tabs 2, groups 0, windows 1, discarded windows 0"}
+{"logTime": "1109/140815", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:598 EdgeLogDecodeResults", "message": "All tabs/windows/tab groups decoded"}
+{"logTime": "1109/140815", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:600 EdgeLogDecodeResults", "message": "Decoded windows: 1, discarded windows: 0"}
+{"logTime": "1109/140815", "level": "INFO", "location": "chrome\\browser\\ui\\views\\session_crashed_bubble_view.cc:430 ShowBubble", "message": "Session crashed bubble shown. PWILO checkbox present: false"}
+{"logTime": "1109/141005", "session": "START"}
+{"logTime": "1109/141005", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1109/141005", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:452 EdgeLogLastSessionExitTypeOnStartup", "message": "Previous Session Exit Type: PreviousSessionExitType::kBrowserCrash"}
+{"logTime": "1109/141005", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1757 DetermineURLsAndLaunch", "message": "Startup Preference: 0"}
+{"logTime": "1109/141005", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1759 DetermineURLsAndLaunch", "message": "Browser Open Behavior: 0"}
+{"logTime": "1109/141005", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "Last session file : Session_13438704149174067"}
+{"logTime": "1109/141005", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:841 CreateTabsAndWindows", "message": "Commands to decode: 31"}
+{"logTime": "1109/141005", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:2247 RestoreSessionFromCommands", "message": "Parse from commands results: Tabs 2, groups 0, windows 1, discarded windows 0"}
+{"logTime": "1109/141005", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:598 EdgeLogDecodeResults", "message": "All tabs/windows/tab groups decoded"}
+{"logTime": "1109/141005", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:600 EdgeLogDecodeResults", "message": "Decoded windows: 1, discarded windows: 0"}
+{"logTime": "1109/141005", "level": "INFO", "location": "chrome\\browser\\ui\\views\\session_crashed_bubble_view.cc:430 ShowBubble", "message": "Session crashed bubble shown. PWILO checkbox present: false"}
+{"logTime": "1109/141241", "session": "START"}
+{"logTime": "1109/141241", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1109/141241", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:452 EdgeLogLastSessionExitTypeOnStartup", "message": "Previous Session Exit Type: PreviousSessionExitType::kBrowserCrash"}
+{"logTime": "1109/141241", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1757 DetermineURLsAndLaunch", "message": "Startup Preference: 0"}
+{"logTime": "1109/141241", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1759 DetermineURLsAndLaunch", "message": "Browser Open Behavior: 0"}
+{"logTime": "1109/141242", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "Last session file : Session_13438704149174067"}
+{"logTime": "1109/141242", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:841 CreateTabsAndWindows", "message": "Commands to decode: 31"}
+{"logTime": "1109/141242", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:2247 RestoreSessionFromCommands", "message": "Parse from commands results: Tabs 2, groups 0, windows 1, discarded windows 0"}
+{"logTime": "1109/141242", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:598 EdgeLogDecodeResults", "message": "All tabs/windows/tab groups decoded"}
+{"logTime": "1109/141242", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:600 EdgeLogDecodeResults", "message": "Decoded windows: 1, discarded windows: 0"}
+{"logTime": "1109/141242", "level": "INFO", "location": "chrome\\browser\\ui\\views\\session_crashed_bubble_view.cc:430 ShowBubble", "message": "Session crashed bubble shown. PWILO checkbox present: false"}
+{"logTime": "1109/142247", "session": "START"}
+{"logTime": "1109/142247", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1109/142247", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:452 EdgeLogLastSessionExitTypeOnStartup", "message": "Previous Session Exit Type: PreviousSessionExitType::kBrowserCrash"}
+{"logTime": "1109/142247", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1757 DetermineURLsAndLaunch", "message": "Startup Preference: 0"}
+{"logTime": "1109/142247", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1759 DetermineURLsAndLaunch", "message": "Browser Open Behavior: 0"}
+{"logTime": "1109/142247", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "Last session file : Session_13438704149174067"}
+{"logTime": "1109/142247", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:841 CreateTabsAndWindows", "message": "Commands to decode: 31"}
+{"logTime": "1109/142247", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:2247 RestoreSessionFromCommands", "message": "Parse from commands results: Tabs 2, groups 0, windows 1, discarded windows 0"}
+{"logTime": "1109/142247", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:598 EdgeLogDecodeResults", "message": "All tabs/windows/tab groups decoded"}
+{"logTime": "1109/142247", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:600 EdgeLogDecodeResults", "message": "Decoded windows: 1, discarded windows: 0"}
+{"logTime": "1109/142247", "level": "INFO", "location": "chrome\\browser\\ui\\views\\session_crashed_bubble_view.cc:430 ShowBubble", "message": "Session crashed bubble shown. PWILO checkbox present: false"}
+{"logTime": "1110/152045", "session": "START"}
+{"logTime": "1110/152045", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1110/152045", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:452 EdgeLogLastSessionExitTypeOnStartup", "message": "Previous Session Exit Type: PreviousSessionExitType::kBrowserCrash"}
+{"logTime": "1110/152045", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1757 DetermineURLsAndLaunch", "message": "Startup Preference: 0"}
+{"logTime": "1110/152045", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1759 DetermineURLsAndLaunch", "message": "Browser Open Behavior: 0"}
+{"logTime": "1110/152045", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "Last session file : Session_13438704149174067"}
+{"logTime": "1110/152045", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:841 CreateTabsAndWindows", "message": "Commands to decode: 31"}
+{"logTime": "1110/152045", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:2247 RestoreSessionFromCommands", "message": "Parse from commands results: Tabs 2, groups 0, windows 1, discarded windows 0"}
+{"logTime": "1110/152045", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:598 EdgeLogDecodeResults", "message": "All tabs/windows/tab groups decoded"}
+{"logTime": "1110/152045", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:600 EdgeLogDecodeResults", "message": "Decoded windows: 1, discarded windows: 0"}
+{"logTime": "1110/152045", "level": "INFO", "location": "chrome\\browser\\ui\\views\\session_crashed_bubble_view.cc:430 ShowBubble", "message": "Session crashed bubble shown. PWILO checkbox present: false"}
+{"logTime": "1111/131419", "session": "START"}
+{"logTime": "1111/131419", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1111/131419", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:452 EdgeLogLastSessionExitTypeOnStartup", "message": "Previous Session Exit Type: PreviousSessionExitType::kBrowserCrash"}
+{"logTime": "1111/131419", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1757 DetermineURLsAndLaunch", "message": "Startup Preference: 0"}
+{"logTime": "1111/131419", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1759 DetermineURLsAndLaunch", "message": "Browser Open Behavior: 0"}
+{"logTime": "1111/131419", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "Last session file : Session_13438704149174067"}
+{"logTime": "1111/131419", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:841 CreateTabsAndWindows", "message": "Commands to decode: 31"}
+{"logTime": "1111/131419", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:2247 RestoreSessionFromCommands", "message": "Parse from commands results: Tabs 2, groups 0, windows 1, discarded windows 0"}
+{"logTime": "1111/131419", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:598 EdgeLogDecodeResults", "message": "All tabs/windows/tab groups decoded"}
+{"logTime": "1111/131419", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:600 EdgeLogDecodeResults", "message": "Decoded windows: 1, discarded windows: 0"}
+{"logTime": "1111/131419", "level": "INFO", "location": "chrome\\browser\\ui\\views\\session_crashed_bubble_view.cc:430 ShowBubble", "message": "Session crashed bubble shown. PWILO checkbox present: false"}
+{"logTime": "1111/140509", "session": "START"}
+{"logTime": "1111/140509", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1111/140509", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:452 EdgeLogLastSessionExitTypeOnStartup", "message": "Previous Session Exit Type: PreviousSessionExitType::kBrowserCrash"}
+{"logTime": "1111/140509", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1757 DetermineURLsAndLaunch", "message": "Startup Preference: 0"}
+{"logTime": "1111/140509", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1759 DetermineURLsAndLaunch", "message": "Browser Open Behavior: 0"}
+{"logTime": "1111/140509", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "Last session file : Session_13438704149174067"}
+{"logTime": "1111/140509", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:841 CreateTabsAndWindows", "message": "Commands to decode: 31"}
+{"logTime": "1111/140509", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:2247 RestoreSessionFromCommands", "message": "Parse from commands results: Tabs 2, groups 0, windows 1, discarded windows 0"}
+{"logTime": "1111/140509", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:598 EdgeLogDecodeResults", "message": "All tabs/windows/tab groups decoded"}
+{"logTime": "1111/140509", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:600 EdgeLogDecodeResults", "message": "Decoded windows: 1, discarded windows: 0"}
+{"logTime": "1111/140509", "level": "INFO", "location": "chrome\\browser\\ui\\views\\session_crashed_bubble_view.cc:430 ShowBubble", "message": "Session crashed bubble shown. PWILO checkbox present: false"}
+{"logTime": "1111/184733", "session": "START"}
+{"logTime": "1111/184733", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1111/184733", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:452 EdgeLogLastSessionExitTypeOnStartup", "message": "Previous Session Exit Type: PreviousSessionExitType::kBrowserCrash"}
+{"logTime": "1111/184733", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1757 DetermineURLsAndLaunch", "message": "Startup Preference: 0"}
+{"logTime": "1111/184733", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1759 DetermineURLsAndLaunch", "message": "Browser Open Behavior: 0"}
+{"logTime": "1111/184733", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "Last session file : Session_13438704149174067"}
+{"logTime": "1111/184733", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:841 CreateTabsAndWindows", "message": "Commands to decode: 31"}
+{"logTime": "1111/184733", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:2247 RestoreSessionFromCommands", "message": "Parse from commands results: Tabs 2, groups 0, windows 1, discarded windows 0"}
+{"logTime": "1111/184733", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:598 EdgeLogDecodeResults", "message": "All tabs/windows/tab groups decoded"}
+{"logTime": "1111/184733", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:600 EdgeLogDecodeResults", "message": "Decoded windows: 1, discarded windows: 0"}
+{"logTime": "1111/184733", "level": "INFO", "location": "chrome\\browser\\ui\\views\\session_crashed_bubble_view.cc:430 ShowBubble", "message": "Session crashed bubble shown. PWILO checkbox present: false"}
+{"logTime": "1112/180844", "session": "START"}
+{"logTime": "1112/180844", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1112/180844", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:452 EdgeLogLastSessionExitTypeOnStartup", "message": "Previous Session Exit Type: PreviousSessionExitType::kBrowserCrash"}
+{"logTime": "1112/180844", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1757 DetermineURLsAndLaunch", "message": "Startup Preference: 0"}
+{"logTime": "1112/180844", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1759 DetermineURLsAndLaunch", "message": "Browser Open Behavior: 0"}
+{"logTime": "1112/180844", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "Last session file : Session_13438704149174067"}
+{"logTime": "1112/180844", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:841 CreateTabsAndWindows", "message": "Commands to decode: 31"}
+{"logTime": "1112/180844", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:2247 RestoreSessionFromCommands", "message": "Parse from commands results: Tabs 2, groups 0, windows 1, discarded windows 0"}
+{"logTime": "1112/180844", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:598 EdgeLogDecodeResults", "message": "All tabs/windows/tab groups decoded"}
+{"logTime": "1112/180844", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:600 EdgeLogDecodeResults", "message": "Decoded windows: 1, discarded windows: 0"}
+{"logTime": "1112/180844", "level": "INFO", "location": "chrome\\browser\\ui\\views\\session_crashed_bubble_view.cc:430 ShowBubble", "message": "Session crashed bubble shown. PWILO checkbox present: false"}
+{"logTime": "1112/205932", "session": "START"}
+{"logTime": "1112/205932", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1112/205932", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:452 EdgeLogLastSessionExitTypeOnStartup", "message": "Previous Session Exit Type: PreviousSessionExitType::kBrowserCrash"}
+{"logTime": "1112/205932", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1757 DetermineURLsAndLaunch", "message": "Startup Preference: 0"}
+{"logTime": "1112/205932", "level": "INFO", "location": "chrome\\browser\\ui\\startup\\startup_browser_creator_impl.cc:1759 DetermineURLsAndLaunch", "message": "Browser Open Behavior: 0"}
+{"logTime": "1112/205932", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "Last session file : Session_13438704149174067"}
+{"logTime": "1112/205932", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:841 CreateTabsAndWindows", "message": "Commands to decode: 31"}
+{"logTime": "1112/205932", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:2247 RestoreSessionFromCommands", "message": "Parse from commands results: Tabs 2, groups 0, windows 1, discarded windows 0"}
+{"logTime": "1112/205932", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:598 EdgeLogDecodeResults", "message": "All tabs/windows/tab groups decoded"}
+{"logTime": "1112/205932", "level": "INFO", "location": "components\\sessions\\core\\session_service_commands.cc:600 EdgeLogDecodeResults", "message": "Decoded windows: 1, discarded windows: 0"}
+{"logTime": "1112/205932", "level": "INFO", "location": "chrome\\browser\\ui\\views\\session_crashed_bubble_view.cc:430 ShowBubble", "message": "Session crashed bubble shown. PWILO checkbox present: false"}

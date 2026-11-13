@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Avaliação de controles Brasil · 2º semestre 2026</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-main">
+    <div class="topbar-title">
+      <h1 id="appTitle">Controles internos Brasil · 2º semestre 2026</h1>
+    </div>
+    <div class="topbar-position">
+      <span>Posição do Monitoring: <strong id="positionText">—</strong></span>
+      <a href="#" id="helpLink" class="link">Como baixar e usar o painel</a>
+    </div>
+    <div class="topbar-actions">
+      <button type="button" class="btn btn-dark" id="refreshBtn">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5V2L7 6l5 4V7a5 5 0 1 1-5 5H5a7 7 0 1 0 7-7Z"/></svg>
+        <span id="refreshLabel">Atualizar dados</span>
+      </button>
+      <img class="logo-img logo-bar-img" src="assets/enel-brasil.svg" alt="Enel Brasil" width="122" height="65">
+    </div>
+  </div>
+
+  <nav class="tabs" role="tablist">
+    <button type="button" role="tab" class="tab is-active" data-view="avaliacao" aria-selected="true">
+      Avaliação de controles
+    </button>
+    <button type="button" role="tab" class="tab" data-view="holding" aria-selected="false">
+      SA1: ICR Brasil × Holding <span class="tab-badge" id="sa1Badge">0</span>
+    </button>
+    <button type="button" role="tab" class="tab" data-view="painel" aria-selected="false">
+      Painel SA1
+    </button>
+  </nav>
+</header>
+
+<main class="page" id="view-avaliacao">
+
+  <section class="page-head">
+    <div class="page-head-text">
+      <h2>Avaliação de controles Brasil</h2>
+      <p class="page-sub" id="pageSub">—</p>
+    </div>
+    <div class="logo-card">
+      <img class="logo-img" src="assets/enel-brasil.svg" alt="Enel Brasil" width="206" height="110">
+    </div>
+  </section>
+
+  <section class="card vision-card">
+    <span class="vision-label">Visão</span>
+    <div class="select vision-select" id="visionSelectWrap">
+      <select id="visionSelect" class="native-select" aria-label="Visão"></select>
+    </div>
+    <span class="vision-count" id="visionCount">—</span>
+  </section>
+
+  <section class="card kpi-card">
+    <div class="kpi-top">
+      <div class="kpi-main">
+        <span class="kpi-number" id="kpiTotal">—</span>
+        <span class="kpi-caption">controles em avaliação no semestre</span>
+      </div>
+      <div class="kpi-side">
+        <span class="kpi-percent" id="kpiPercent">—</span>
+        <span class="kpi-side-caption" id="kpiSideCaption">—</span>
+      </div>
+    </div>
+
+    <div class="progress" id="kpiBar" role="img" aria-label="Progresso da avaliação"></div>
+
+    <div class="kpi-stats">
+      <div class="kpi-stat">
+        <div class="kpi-stat-label"><i class="dot dot-ink"></i><span>Avaliados<br><small>(SA1+SA2+SA3)</small></span></div>
+        <div class="kpi-stat-value" id="statAssessed">—</div>
+      </div>
+      <div class="kpi-stat">
+        <div class="kpi-stat-label"><i class="dot dot-green"></i><span>SA3 operando<br>conforme desenho</span></div>
+        <div class="kpi-stat-value" id="statSA3">—</div>
+      </div>
+      <div class="kpi-stat">
+        <div class="kpi-stat-label"><i class="dot dot-amber"></i><span>SA1 com alteração de<br>desenho</span></div>
+        <div class="kpi-stat-value" id="statSA1">—</div>
+      </div>
+      <div class="kpi-stat">
+        <div class="kpi-stat-label"><i class="dot dot-blue"></i><span>SA2 avaliado e<br>inoperante</span></div>
+        <div class="kpi-stat-value" id="statSA2">—</div>
+      </div>
+      <div class="kpi-stat">
+        <div class="kpi-stat-label"><i class="dot dot-red"></i><span><b>SA0</b> não avaliado</span></div>
+        <div class="kpi-stat-value" id="statSA0">—</div>
+        <div class="kpi-stat-note" id="statSA0Note">—</div>
+      </div>
+      <div class="kpi-stat kpi-stat-esg">
+        <div class="kpi-stat-label"><span class="esg-badge">ESG</span><span>Controles ESG</span></div>
+        <div class="kpi-stat-value" id="statEsg">—</div>
+        <div class="kpi-stat-note" id="statEsgNote">—</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card chart-card">
+    <div class="card-head">
+      <div>
+        <h3>Controles × avaliados por estrutura organizacional</h3>
+        <p class="card-sub">O comprimento da barra é o total de controles da estrutura; a parte colorida é o que já foi avaliado.</p>
+      </div>
+      <div class="segmented" id="structSort" role="group" aria-label="Ordenação">
+        <button type="button" class="segmented-item is-active" data-sort="total">Mais controles</button>
+        <button type="button" class="segmented-item" data-sort="pct-asc">Menor % avaliado</button>
+        <button type="button" class="segmented-item" data-sort="pct-desc">Maior % avaliado</button>
+      </div>
+    </div>
+
+    <div class="legend">
+      <span class="legend-item"><i class="dot dot-green"></i>SA3</span>
+      <span class="legend-item"><i class="dot dot-amber"></i>SA1</span>
+      <span class="legend-item"><i class="dot dot-blue"></i>SA2</span>
+      <span class="legend-item"><i class="dot dot-gray"></i>SA0 (pendente)</span>
+    </div>
+
+    <div class="struct-list" id="structList"></div>
+  </section>
+
+  <section class="grid-2">
+    <div class="card list-card">
+      <h3>SA1 por estrutura organizacional</h3>
+      <p class="card-sub">Avaliados com alteração de desenho, do maior para o menor.</p>
+      <div class="rank-list" id="sa1ByStruct"></div>
+    </div>
+    <div class="card list-card">
+      <h3>Maiores ofensores em SA0</h3>
+      <p class="card-sub">Estruturas com mais controles não avaliados. Abaixo, o peso no total pendente e o % da própria estrutura.</p>
+      <div class="rank-list" id="sa0Offenders"></div>
+    </div>
+  </section>
+
+  <section class="card filters-card">
+    <h3>Faça o download dos controles da sua estrutura organizacional</h3>
+    <p class="card-sub narrow">
+      Combine os filtros: código do controle, estrutura organizacional, control owner, status da avaliação,
+      responsável pela avaliação e frequência. Estes filtros são independentes da visão escolhida no topo da página:
+      aqui você sempre enxerga a base completa. Em cada filtro você pode marcar uma opção, várias ou todas
+      (use “Selecionar todos”). Filtro sem nada marcado também considera todos.
+    </p>
+    <button type="button" class="btn btn-ghost" id="clearFilters">Limpar filtros</button>
+
+    <div class="filter-grid">
+      <div class="field">
+        <label for="filterCode">Código do controle</label>
+        <div class="multiselect" id="msCode" data-placeholder="Todos os códigos"></div>
+      </div>
+      <div class="field">
+        <label for="filterStruct">Estruturas organizacionais</label>
+        <div class="multiselect" id="msStruct" data-placeholder="Todas as estruturas"></div>
+      </div>
+      <div class="field">
+        <label for="filterOwner">Control owners</label>
+        <div class="multiselect" id="msOwner" data-placeholder="Todos os control owners"></div>
+      </div>
+    </div>
+
+    <div class="field field-status">
+      <label>Status da avaliação (Self-Assessment result)</label>
+      <div class="chip-row" id="statusChips"></div>
+    </div>
+
+    <div class="filter-grid filter-grid-2">
+      <div class="field">
+        <label for="filterAssigned">Avaliação atribuída a</label>
+        <div class="multiselect" id="msAssigned" data-placeholder="Todos os responsáveis"></div>
+        <p class="field-hint">Responsável pela tarefa de avaliação no SAP GRC (User managing task)</p>
+      </div>
+      <div class="field">
+        <label for="filterFreq">Frequência</label>
+        <div class="multiselect" id="msFreq" data-placeholder="Todas as frequências"></div>
+        <p class="field-hint">Frequência do controle no Monitoring. Marque uma ou várias para restringir o download.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="card table-card">
+    <div class="table-head">
+      <div class="table-head-text">
+        <h3 id="tableTitle">—</h3>
+        <div class="table-summary">
+          <span id="tableSummary">—</span>
+          <span class="mini-bar" id="tableMiniBar"></span>
+          <span class="mini-legend">
+            <span class="legend-item"><i class="dot dot-green"></i>SA3 <b id="miniSA3">0</b></span>
+            <span class="legend-item"><i class="dot dot-amber"></i>SA1 <b id="miniSA1">0</b></span>
+            <span class="legend-item"><i class="dot dot-red"></i>SA0 <b id="miniSA0">0</b></span>
+          </span>
+        </div>
+      </div>
+      <div class="table-actions">
+        <button type="button" class="btn btn-dark" id="downloadExcel">Download Excel</button>
+        <button type="button" class="btn btn-ghost" id="downloadPdf">Download PDF</button>
+      </div>
+    </div>
+
+    <div class="table-scroll">
+      <table class="data-table table-controles">
+        <thead>
+          <tr>
+            <th>Código do controle</th>
+            <th>Descrição do controle</th>
+            <th>Frequência</th>
+            <th>Control owners</th>
+            <th>Estrutura</th>
+            <th>Status</th>
+            <th>Avaliação atribuída a</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+    <p class="table-foot" id="tableFoot"></p>
+  </section>
+</main>
+
+<main class="page" id="view-holding" hidden>
+
+  <section class="card vision-card">
+    <span class="vision-label">Visão</span>
+    <div class="select vision-select">
+      <select id="holdingVision" class="native-select" aria-label="Visão"></select>
+    </div>
+    <span class="vision-count" id="holdingVisionCount">—</span>
+  </section>
+
+  <section class="card funnel-card">
+    <h3>Onde estão os SA1</h3>
+    <p class="card-sub">Cada SA1 passa por duas etapas: validação do ICR Divisional (Brasil) e aprovação do ICR Holding (Itália). Depois da aprovação da Holding, o controle vira SA3.</p>
+    <div class="funnel" id="funnelStages"></div>
+    <div class="funnel-stack" id="funnelStack"></div>
+    <div class="funnel-note" id="funnelNote"></div>
+  </section>
+
+  <section class="card section-card" id="secIcr">
+    <div class="section-head">
+      <button type="button" class="section-toggle" aria-expanded="true" aria-controls="secIcrBody" data-section="secIcr" title="Recolher seção">
+        <svg viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5 6 6.5 11 1.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <h3>Consolidado dos SA1 em ICR Brasil</h3>
+      <span class="section-badge section-badge-amber" id="icrBadge">0 SA1</span>
+    </div>
+    <div class="section-body" id="secIcrBody">
+      <p class="card-sub">SA1 com a tarefa no time ICR Brasil (User managing task), por pessoa. “Dias” conta desde a avaliação do control owner.</p>
+      <div class="people-grid" id="icrPeople"></div>
+
+      <div class="mini-filters">
+        <div class="field field-sm">
+          <label for="icrResp">Responsável ICR</label>
+          <select id="icrResp" class="native-select native-select-sm"></select>
+        </div>
+        <div class="field field-sm">
+          <label for="icrStruct">Estrutura</label>
+          <select id="icrStruct" class="native-select native-select-sm"></select>
+        </div>
+        <div class="field field-sm field-search">
+          <label for="icrSearch">Buscar</label>
+          <input id="icrSearch" class="text-input" type="search" placeholder="Código, descrição ou pedido">
+        </div>
+        <button type="button" class="btn btn-dark" id="icrExcel">Download Excel</button>
+      </div>
+
+      <p class="count-line" id="icrCount">—</p>
+      <div class="table-scroll table-scroll-hold">
+        <table class="data-table table-icr">
+          <thead>
+            <tr>
+              <th>Código</th>
+              <th>Estrutura</th>
+              <th>Responsável ICR</th>
+              <th>Dias</th>
+              <th>Control owner</th>
+              <th>O que o control owner pede</th>
+            </tr>
+          </thead>
+          <tbody id="icrBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="card section-card" id="secDev">
+    <div class="section-head">
+      <button type="button" class="section-toggle" aria-expanded="true" aria-controls="secDevBody" data-section="secDev" title="Recolher seção">
+        <svg viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5 6 6.5 11 1.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <h3>Devolvidos ao control owner</h3>
+      <span class="section-badge section-badge-gray" id="devBadge">0 SA1</span>
+    </div>
+    <div class="section-body" id="secDevBody">
+      <p class="card-sub">SA1 em que a tarefa está com o control owner no Monitoring e que ainda não foram aprovados pela Holding.</p>
+      <div class="table-scroll table-scroll-hold">
+        <table class="data-table table-dev">
+          <thead>
+            <tr>
+              <th>Código</th>
+              <th>Estrutura</th>
+              <th>Tarefa com</th>
+              <th>Responsável ICR</th>
+              <th>Validado pelo ICR em</th>
+              <th>O que o control owner pede</th>
+            </tr>
+          </thead>
+          <tbody id="devBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="card section-card" id="secHolding">
+    <div class="section-head">
+      <button type="button" class="section-toggle" aria-expanded="true" aria-controls="secHoldingBody" data-section="secHolding" title="Recolher seção">
+        <svg viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5 6 6.5 11 1.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <h3>Visão da Holding (Itália)</h3>
+      <span class="section-badge section-badge-blue" id="holdingBadge">—</span>
+    </div>
+    <div class="section-body" id="secHoldingBody">
+      <p class="card-sub">SA1 validados pelo ICR Brasil e aguardando o ICR Holding. “Dias aguardando” conta desde a validação do ICR Divisional.</p>
+
+      <div class="bucket-grid" id="holdingBuckets"></div>
+      <div class="people-grid" id="holdingPeople"></div>
+
+      <div class="mini-filters">
+        <div class="field field-sm">
+          <label for="hHolding">ICR Holding</label>
+          <select id="hHolding" class="native-select native-select-sm"></select>
+        </div>
+        <div class="field field-sm">
+          <label for="hValidator">Validado por (ICR Brasil)</label>
+          <select id="hValidator" class="native-select native-select-sm"></select>
+        </div>
+        <div class="field field-sm">
+          <label for="hStatus">Situação</label>
+          <select id="hStatus" class="native-select native-select-sm">
+            <option value="both">Aguardando e aprovados</option>
+            <option value="waiting">Aguardando Holding</option>
+            <option value="approved">Aprovados pela Holding</option>
+          </select>
+        </div>
+        <div class="field field-sm field-search">
+          <label for="hSearch">Buscar</label>
+          <input id="hSearch" class="text-input" type="search" placeholder="Código, descrição ou estrutura">
+        </div>
+        <button type="button" class="btn btn-dark" id="holdingExcel">Download Excel</button>
+      </div>
+
+      <p class="count-line" id="holdingCount">—</p>
+      <div class="table-scroll table-scroll-hold">
+        <table class="data-table table-holding">
+          <thead>
+            <tr>
+              <th>Código</th>
+              <th>Estrutura</th>
+              <th>ICR Holding</th>
+              <th>Validado por</th>
+              <th>Validado em</th>
+              <th>Dias aguardando</th>
+              <th>Situação</th>
+            </tr>
+          </thead>
+          <tbody id="holdingBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</main>
+
+<main class="page" id="view-painel" hidden>
+  <section class="page-head">
+    <div class="page-head-text">
+      <h2>Painel de SA1: pedidos de alteração de desenho</h2>
+      <p class="page-sub">Controles avaliados como operativos com alteração de desenho, com o que o control owner pediu para mudar (Deficiency Description do Issue report) e o responsável ICR por validar.</p>
+    </div>
+    <div class="logo-card">
+      <img class="logo-img" src="assets/enel-brasil.svg" alt="Enel Brasil" width="206" height="110">
+    </div>
+  </section>
+
+  <section class="card vision-card">
+    <span class="vision-label">Visão</span>
+    <div class="select vision-select">
+      <select id="painelVision" class="native-select" aria-label="Visão"></select>
+    </div>
+    <span class="vision-count" id="painelVisionCount">—</span>
+  </section>
+
+  <section class="card hero-card" id="painelHero"></section>
+
+  <section class="card">
+    <h3>Com quem está cada SA1</h3>
+    <p class="card-sub">Quem está com a tarefa agora no SAP GRC (User managing task do Monitoring): time ICR Brasil, ICR Holding (Itália) ou o próprio control owner. Clique em um nome para filtrar o painel.</p>
+    <div id="painelPeople"></div>
+  </section>
+
+  <section class="card">
+    <h3>Validação dos SA1 por ICR Divisional</h3>
+    <p class="card-sub">Percentual dos SA1 de cada responsável já validados pelo ICR Divisional no Issue report. Faixas: até 33% vermelho, até 66% amarelo, acima disso verde.</p>
+    <div class="gauge-grid" id="painelGauges"></div>
+  </section>
+
+  <section class="card">
+    <h3>Por estrutura organizacional</h3>
+    <p class="card-sub">Quantidade de SA1 de cada estrutura.</p>
+    <div class="struct-cols" id="painelStructs"></div>
+    <button type="button" class="btn btn-ghost struct-more" id="painelStructMore">Mostrar todos</button>
+  </section>
+
+  <section class="card">
+    <h3>Controles e pedidos de alteração</h3>
+    <p class="card-sub">Clique em uma linha para ver a descrição completa do controle, da prova e do pedido do control owner.</p>
+
+    <div class="painel-filters painel-filters-top">
+      <div class="field field-sm field-wide">
+        <label for="pTask">Com quem está (User managing task)</label>
+        <select id="pTask" class="native-select native-select-sm"></select>
+      </div>
+      <div class="field field-sm">
+        <label for="pStruct">Estrutura</label>
+        <select id="pStruct" class="native-select native-select-sm"></select>
+      </div>
+    </div>
+
+    <div class="painel-filters">
+      <div class="field field-sm">
+        <label for="pSystem">Sistema</label>
+        <select id="pSystem" class="native-select native-select-sm"></select>
+      </div>
+      <div class="field field-sm">
+        <label for="pFreq">Frequência</label>
+        <select id="pFreq" class="native-select native-select-sm"></select>
+      </div>
+      <div class="field field-sm field-search">
+        <label for="pSearch">Buscar</label>
+        <input id="pSearch" class="text-input" type="search" placeholder="Código, descrição, pedido ou estrutura">
+      </div>
+      <button type="button" class="btn btn-ghost" id="pClear">Limpar filtros</button>
+      <button type="button" class="btn btn-dark" id="pExcel">Download Excel</button>
+    </div>
+
+    <p class="count-line" id="painelListCount">—</p>
+    <div class="table-scroll table-scroll-hold table-scroll-painel">
+      <table class="data-table table-painel">
+        <thead>
+          <tr>
+            <th class="col-toggle"></th>
+            <th>Código</th>
+            <th>Estrutura</th>
+            <th>Frequência</th>
+            <th>Sistemas</th>
+            <th>Control owner</th>
+            <th>Com quem está</th>
+            <th>O que o control owner pede</th>
+          </tr>
+        </thead>
+        <tbody id="painelBody"></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<div id="printArea" aria-hidden="true"></div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="data/dataset.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

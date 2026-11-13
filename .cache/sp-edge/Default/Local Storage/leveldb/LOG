@@ -1,0 +1,8 @@
+2026/11/12-17:59:32.950 5084 Reusing MANIFEST C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default\Local Storage\leveldb/MANIFEST-000001
+2026/11/12-17:59:32.954 5084 Recovering log #75
+2026/11/12-17:59:32.957 5084 Level-0 table #77: started
+2026/11/12-17:59:32.978 5084 Level-0 table #77: 27929 bytes OK
+2026/11/12-17:59:32.986 5084 Delete type=0 #75
+2026/11/12-18:00:33.020 3684 Level-0 table #80: started
+2026/11/12-18:00:33.035 3684 Level-0 table #80: 67349 bytes OK
+2026/11/12-18:00:33.038 3684 Delete type=0 #78

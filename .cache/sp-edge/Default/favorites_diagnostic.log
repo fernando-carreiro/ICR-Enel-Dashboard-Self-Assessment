@@ -1,0 +1,149 @@
+2026-11-06 15:50:06.907: [INFO] CurrentProfilePath: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-06 15:50:06.907: [INFO] Profiles total count: 1
+2026-11-06 15:50:06.908: [INFO] Profile: name=Perfil 1 path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=null
+2026-11-06 15:50:06.908: [INFO] LastUsedProfileDir: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-06 15:50:06.908: [INFO] VisibilityChanged: 0
+2026-11-06 15:50:06.957: [INFO] OnDoneLoading sync enabled: 0
+2026-11-06 15:50:06.957: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-06 15:50:06.957: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-06 15:50:06.957: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-09 13:22:26.582: [INFO] CurrentProfilePath: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-09 13:22:26.582: [INFO] Profiles total count: 1
+2026-11-09 13:22:26.582: [INFO] Profile: name=Perfil 1 path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-06T15:50:06.931Z
+2026-11-09 13:22:26.582: [INFO] LastUsedProfileDir: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-09 13:22:26.582: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-06T15:50:06.931Z
+2026-11-09 13:22:26.582: [INFO] VisibilityChanged: 0
+2026-11-09 13:22:26.615: [INFO] OnDoneLoading sync enabled: 0
+2026-11-09 13:22:26.615: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-09 13:22:26.615: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-09 13:22:26.615: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-09 13:27:08.289: [INFO] CurrentProfilePath: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-09 13:27:08.289: [INFO] Profiles total count: 1
+2026-11-09 13:27:08.289: [INFO] Profile: name=Perfil 1 path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-09T13:22:26.600Z
+2026-11-09 13:27:08.289: [INFO] LastUsedProfileDir: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-09 13:27:08.289: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-09T13:22:26.600Z
+2026-11-09 13:27:08.289: [INFO] VisibilityChanged: 0
+2026-11-09 13:27:08.345: [INFO] OnDoneLoading sync enabled: 0
+2026-11-09 13:27:08.345: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-09 13:27:08.345: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-09 13:27:08.345: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-09 13:28:25.609: [INFO] CurrentProfilePath: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-09 13:28:25.609: [INFO] Profiles total count: 1
+2026-11-09 13:28:25.609: [INFO] Profile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-09T13:27:08.307Z
+2026-11-09 13:28:25.609: [INFO] LastUsedProfileDir: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-09 13:28:25.609: [INFO] MostRecentlyActiveProfile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-09T13:27:08.307Z
+2026-11-09 13:28:25.609: [INFO] VisibilityChanged: 0
+2026-11-09 13:28:25.659: [INFO] OnDoneLoading sync enabled: 0
+2026-11-09 13:28:25.659: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-09 13:28:25.659: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-09 13:28:25.659: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-09 14:06:44.739: [INFO] CurrentProfilePath: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-09 14:06:44.739: [INFO] Profiles total count: 1
+2026-11-09 14:06:44.739: [INFO] Profile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-09T13:49:04.147Z
+2026-11-09 14:06:44.739: [INFO] LastUsedProfileDir: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-09 14:06:44.739: [INFO] MostRecentlyActiveProfile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-09T13:49:04.147Z
+2026-11-09 14:06:44.739: [INFO] VisibilityChanged: 0
+2026-11-09 14:06:44.782: [INFO] OnDoneLoading sync enabled: 0
+2026-11-09 14:06:44.782: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-09 14:06:44.782: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-09 14:06:44.782: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-09 14:08:15.211: [INFO] CurrentProfilePath: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-09 14:08:15.211: [INFO] Profiles total count: 1
+2026-11-09 14:08:15.211: [INFO] Profile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-09T14:06:44.754Z
+2026-11-09 14:08:15.211: [INFO] LastUsedProfileDir: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-09 14:08:15.211: [INFO] MostRecentlyActiveProfile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-09T14:06:44.754Z
+2026-11-09 14:08:15.211: [INFO] VisibilityChanged: 0
+2026-11-09 14:08:15.260: [INFO] OnDoneLoading sync enabled: 0
+2026-11-09 14:08:15.260: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-09 14:08:15.260: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-09 14:08:15.260: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-09 14:10:05.478: [INFO] CurrentProfilePath: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-09 14:10:05.478: [INFO] Profiles total count: 1
+2026-11-09 14:10:05.478: [INFO] Profile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-09T14:08:15.227Z
+2026-11-09 14:10:05.478: [INFO] LastUsedProfileDir: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-09 14:10:05.478: [INFO] MostRecentlyActiveProfile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-09T14:08:15.227Z
+2026-11-09 14:10:05.478: [INFO] VisibilityChanged: 0
+2026-11-09 14:10:05.538: [INFO] OnDoneLoading sync enabled: 0
+2026-11-09 14:10:05.538: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-09 14:10:05.538: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-09 14:10:05.538: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-09 14:12:42.010: [INFO] CurrentProfilePath: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-09 14:12:42.010: [INFO] Profiles total count: 1
+2026-11-09 14:12:42.010: [INFO] Profile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-09T14:11:48.672Z
+2026-11-09 14:12:42.010: [INFO] LastUsedProfileDir: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-09 14:12:42.010: [INFO] MostRecentlyActiveProfile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-09T14:11:48.672Z
+2026-11-09 14:12:42.010: [INFO] VisibilityChanged: 0
+2026-11-09 14:12:42.058: [INFO] OnDoneLoading sync enabled: 0
+2026-11-09 14:12:42.058: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-09 14:12:42.058: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-09 14:12:42.058: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-09 14:22:47.708: [INFO] CurrentProfilePath: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-09 14:22:47.708: [INFO] Profiles total count: 1
+2026-11-09 14:22:47.708: [INFO] Profile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-09T14:12:42.027Z
+2026-11-09 14:22:47.708: [INFO] LastUsedProfileDir: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-09 14:22:47.708: [INFO] MostRecentlyActiveProfile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-09T14:12:42.027Z
+2026-11-09 14:22:47.708: [INFO] VisibilityChanged: 0
+2026-11-09 14:22:47.751: [INFO] OnDoneLoading sync enabled: 0
+2026-11-09 14:22:47.751: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-09 14:22:47.751: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-09 14:22:47.751: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-10 15:20:45.784: [INFO] CurrentProfilePath: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-10 15:20:45.784: [INFO] Profiles total count: 1
+2026-11-10 15:20:45.784: [INFO] Profile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-09T21:15:03.252Z
+2026-11-10 15:20:45.784: [INFO] LastUsedProfileDir: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-10 15:20:45.784: [INFO] MostRecentlyActiveProfile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-09T21:15:03.252Z
+2026-11-10 15:20:45.784: [INFO] VisibilityChanged: 0
+2026-11-10 15:20:45.829: [INFO] OnDoneLoading sync enabled: 0
+2026-11-10 15:20:45.829: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-10 15:20:45.829: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-10 15:20:45.829: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-11 13:14:19.530: [INFO] CurrentProfilePath: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-11 13:14:19.530: [INFO] Profiles total count: 1
+2026-11-11 13:14:19.530: [INFO] Profile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-10T16:38:10.990Z
+2026-11-11 13:14:19.530: [INFO] LastUsedProfileDir: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-11 13:14:19.530: [INFO] MostRecentlyActiveProfile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-10T16:38:10.990Z
+2026-11-11 13:14:19.530: [INFO] VisibilityChanged: 0
+2026-11-11 13:14:19.583: [INFO] OnDoneLoading sync enabled: 0
+2026-11-11 13:14:19.583: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-11 13:14:19.583: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-11 13:14:19.583: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-11 14:05:09.445: [INFO] CurrentProfilePath: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-11 14:05:09.445: [INFO] Profiles total count: 1
+2026-11-11 14:05:09.445: [INFO] Profile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-11T13:14:19.546Z
+2026-11-11 14:05:09.445: [INFO] LastUsedProfileDir: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-11 14:05:09.445: [INFO] MostRecentlyActiveProfile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-11T13:14:19.546Z
+2026-11-11 14:05:09.445: [INFO] VisibilityChanged: 0
+2026-11-11 14:05:09.490: [INFO] OnDoneLoading sync enabled: 0
+2026-11-11 14:05:09.490: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-11 14:05:09.490: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-11 14:05:09.490: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-11 18:47:33.696: [INFO] CurrentProfilePath: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-11 18:47:33.696: [INFO] Profiles total count: 1
+2026-11-11 18:47:33.696: [INFO] Profile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-11T14:05:09.461Z
+2026-11-11 18:47:33.696: [INFO] LastUsedProfileDir: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-11 18:47:33.696: [INFO] MostRecentlyActiveProfile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-11T14:05:09.461Z
+2026-11-11 18:47:33.696: [INFO] VisibilityChanged: 0
+2026-11-11 18:47:33.752: [INFO] OnDoneLoading sync enabled: 0
+2026-11-11 18:47:33.752: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-11 18:47:33.752: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-11 18:47:33.752: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-12 18:08:44.483: [INFO] CurrentProfilePath: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-12 18:08:44.483: [INFO] Profiles total count: 1
+2026-11-12 18:08:44.483: [INFO] Profile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-11T18:47:33.712Z
+2026-11-12 18:08:44.483: [INFO] LastUsedProfileDir: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-12 18:08:44.483: [INFO] MostRecentlyActiveProfile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-11T18:47:33.712Z
+2026-11-12 18:08:44.483: [INFO] VisibilityChanged: 0
+2026-11-12 18:08:44.537: [INFO] OnDoneLoading sync enabled: 0
+2026-11-12 18:08:44.537: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-12 18:08:44.537: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-12 18:08:44.537: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-12 20:59:32.785: [INFO] CurrentProfilePath: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-12 20:59:32.785: [INFO] Profiles total count: 1
+2026-11-12 20:59:32.785: [INFO] Profile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-12T19:31:12.244Z
+2026-11-12 20:59:32.785: [INFO] LastUsedProfileDir: C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default
+2026-11-12 20:59:32.785: [INFO] MostRecentlyActiveProfile: name=Trabalho path=C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default lastActive=2026-11-12T19:31:12.244Z
+2026-11-12 20:59:32.785: [INFO] VisibilityChanged: 0
+2026-11-12 20:59:32.838: [INFO] OnDoneLoading sync enabled: 0
+2026-11-12 20:59:32.838: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-12 20:59:32.838: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-12 20:59:32.838: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

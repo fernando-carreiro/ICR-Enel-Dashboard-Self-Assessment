@@ -1,0 +1,15 @@
+2026/11/12-15:09:44.960 bf0 Reusing MANIFEST C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2026/11/12-15:09:44.982 bf0 Recovering log #42
+2026/11/12-15:09:44.986 bf0 Reusing old log C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default\EdgeCoupons/coupons_data.db/000042.log 
+2026/11/12-15:09:45.994 5964 Level-0 table #46: started
+2026/11/12-15:09:46.007 5964 Level-0 table #46: 683376 bytes OK
+2026/11/12-15:09:46.011 5964 Delete type=0 #42
+2026/11/12-15:09:46.012 5964 Compacting 4@0 + 1@1 files
+2026/11/12-15:09:46.036 5964 Generated table #47@0: 3 keys, 683376 bytes
+2026/11/12-15:09:46.036 5964 Compacted 4@0 + 1@1 files => 683376 bytes
+2026/11/12-15:09:46.037 5964 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/12-15:09:46.039 5964 Delete type=2 #34
+2026/11/12-15:09:46.039 5964 Delete type=2 #37
+2026/11/12-15:09:46.039 5964 Delete type=2 #40
+2026/11/12-15:09:46.039 5964 Delete type=2 #43
+2026/11/12-15:09:46.039 5964 Delete type=2 #46

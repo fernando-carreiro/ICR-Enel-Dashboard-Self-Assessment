@@ -1,0 +1,16 @@
+{
+    "monitoring":  {
+                       "file":  "monitoring_12.11.2026.xlsx",
+                       "label":  "Monitoring_12.11.2026.xlsx",
+                       "folder":  "01_Year 2026/04_ICR Assessment Process/II SEM 2026/01_Reports/02_Monitoring/11. November",
+                       "modified":  "2026-11-12T20:19:02Z",
+                       "parent":  "01_Year 2026/04_ICR Assessment Process/II SEM 2026/01_Reports/02_Monitoring"
+                   },
+    "issues":  {
+                   "file":  "issue_report_12.11.2026.xlsx",
+                   "label":  "Issue_Report_12.11.2026.xlsx",
+                   "folder":  "01_Year 2026/04_ICR Assessment Process/II SEM 2026/01_Reports/03_Report Issue/November",
+                   "modified":  "2026-11-12T18:05:06Z",
+                   "parent":  "01_Year 2026/04_ICR Assessment Process/II SEM 2026/01_Reports/03_Report Issue"
+               }
+}

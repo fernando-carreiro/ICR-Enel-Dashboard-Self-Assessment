@@ -1,0 +1,25 @@
+2026/11/12-16:31:12.923 38b4 Reusing MANIFEST C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default\IndexedDB\https_enelcom.sharepoint.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/11/12-16:31:12.925 38b4 Recovering log #192
+2026/11/12-16:31:12.925 38b4 Reusing old log C:\Users\BR0220793688\Documents\Dashboard SA1\.cache\sp-edge\Default\IndexedDB\https_enelcom.sharepoint.com_0.indexeddb.leveldb/000192.log 
+2026/11/12-16:31:12.976 28c8 Compacting 1@1 + 2@2 files
+2026/11/12-16:31:13.074 28c8 Generated table #195@1: 6465 keys, 2159781 bytes
+2026/11/12-16:31:13.094 28c8 Generated table #196@1: 278 keys, 700384 bytes
+2026/11/12-16:31:13.094 28c8 Compacted 1@1 + 2@2 files => 2860165 bytes
+2026/11/12-16:31:13.096 28c8 compacted to: files[ 0 0 2 0 0 0 0 ]
+2026/11/12-16:31:13.105 28c8 Delete type=2 #190
+2026/11/12-16:31:13.105 28c8 Delete type=2 #191
+2026/11/12-16:31:13.105 28c8 Delete type=2 #193
+2026/11/12-16:31:13.987 38b4 Level-0 table #198: started
+2026/11/12-16:31:14.037 38b4 Level-0 table #198: 1701773 bytes OK
+2026/11/12-16:31:14.040 38b4 Delete type=0 #192
+2026/11/12-16:31:14.048 38b4 Compacting 1@1 + 1@2 files
+2026/11/12-16:31:14.124 38b4 Generated table #199@1: 6278 keys, 2148256 bytes
+2026/11/12-16:31:14.147 38b4 Generated table #200@1: 2015 keys, 860349 bytes
+2026/11/12-16:31:14.147 38b4 Compacted 1@1 + 1@2 files => 3008605 bytes
+2026/11/12-16:31:14.152 38b4 compacted to: files[ 0 0 3 0 0 0 0 ]
+2026/11/12-16:31:14.153 38b4 Delete type=2 #195
+2026/11/12-16:31:14.153 38b4 Delete type=2 #198
+2026/11/12-16:31:24.592 28c8 Level-0 table #202: started
+2026/11/12-16:31:24.654 28c8 Level-0 table #202: 1250817 bytes OK
+2026/11/12-16:31:24.657 28c8 Delete type=0 #197
+2026/11/12-16:31:24.659 28c8 Manual compaction at level-0 from '\x00 \x00\x00\x00' @ 72057594037927935 : 1 .. '\x00!\x00\x00\x00' @ 0 : 0; will stop at (end)
